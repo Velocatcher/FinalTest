@@ -34,3 +34,20 @@ string [] ThreeSymbol(string [] sourceArray)
   return rez;
 }
 
+
+
+void PrintArray(string [] stringArray)
+{
+    Console.Write("[");
+    for (int i = 0;i<stringArray.Length;i++)
+    {
+        if (i != stringArray.Length -1)
+            Console.Write($"\"{stringArray[i]}\",");
+        else Console.Write($"\"{stringArray[i]}\"");
+    }
+    Console.Write("]");
+}
+
+ArrayFirst(sourceArray);
+PrintArray(ThreeSymbol(sourceArray));
+
