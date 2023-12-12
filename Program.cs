@@ -21,17 +21,17 @@ string [] ThreeSymbol(string [] sourceArray)
     if(sourceArray[i].Length <=3)
     n++;
   }
-  string [] rez = new string [n];
+  string [] resultArray = new string [n];
   int j = 0;
   for (int i = 0;i<sourceArray.Length;i++)
   {
     if(sourceArray[i].Length <=3)
     {
-        rez[j] = sourceArray[i];
+        resultArray[j] = sourceArray[i];
         j++;
     }
   }
-  return rez;
+  return resultArray;
 }
 
 
