@@ -38,4 +38,4 @@
 
    [Блок-схема алгоритма](https://drive.google.com/file/d/1nj7jCJN3qSIIsqXWRXh7K3z4dqAYJLrt/view?usp=sharing)
 
-   ![Блок-схема алгоритма](FinalTest.jpg)
+   
